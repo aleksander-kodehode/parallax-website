@@ -1,0 +1,127 @@
+/* GLOBAL OVERRIDE FOR MARIGNS */
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+/* SETTING GLOBAL VARIABLES FOR COLORS*/
+:root {
+    --light-orange: #F29559;
+    --dark-blue:  #202C39;
+    --medium-blue: #283845;
+    --light-grey: #dcdcdc;
+}
+/* Global Styling */
+body {
+    color: var(--light-grey);
+    background: var(--dark-blue);
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Parallax styling */
+.parallax-el {
+    width: auto;
+}
+.para-contents {
+    height: auto;
+    display: flex;
+    padding: 20px 0;
+}
+/* Parallax-1 */
+#para-1{
+    height: 600px;
+    background: url("imgs/para-1.png") fixed;
+    background-size: 100% 100%;
+}
+h2#para-heading-1 {
+    margin: auto;
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 3.5em;
+    color: var(--light-orange);
+    position: relative;
+    left: -350px;
+    top: 100px;
+    font-weight: 600;
+}
+#para-cont-1 {
+    background-color: var(--dark-blue);
+    justify-content: space-evenly;
+}
+.para-1-flex-el {
+    width: 300px;
+    height: auto;
+    margin: 15px 5px;
+}
+.para-1-flex-el img {
+    height: 250px;
+    width: 250px;
+    margin: 8px auto;
+    border-radius: 50%;
+    border: 3px solid var(--medium-blue)
+}
+.para-1-flex-el h3 {
+    color: var(--light-orange);
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 3px black;
+}
+/* Parallax-2 */
+#para-2{
+    height: 600px;
+    background: url("imgs/para-2.jpg") fixed;
+    background-size: 100% 100%;
+}
+#para-cont-2 {
+    background-color: var(--light-orange);
+    color: var(--medium-blue);
+}
+#para-cont-2 img {
+    height: 400px;
+    width: auto;
+    margin: 8px 10px;
+    border: 2px solid var(--dark-blue)
+}
+#para-cont-2 h3 {
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 4em;
+}
+#para-cont-2 button {
+    padding: 10px 30px;
+    margin: 50px 7px 0 0;
+    background-color: var(--dark-blue);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+}
+#para-cont-2 button:hover {
+    background-color: var(--medium-blue);
+}
+/* Parallax-3 */
+#para-3{
+    height: 600px;
+    background: url("imgs/office.jpg") fixed;
+    background-size: 100% 100%;
+}
+#para-cont-3 {
+    background: var(--dark-blue);
+    justify-content: space-evenly;
+}
+#contact-wrapper {
+    width: 600px;
+}
+#contact-wrapper h3{
+    font-size: 3em;
+    color: var(--light-orange);
+    text-shadow: 2px 2px 3px black;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+/* Parallax-4 */
+#para-4{
+    
+}
